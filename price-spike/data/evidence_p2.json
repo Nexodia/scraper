@@ -1,0 +1,110 @@
+{
+  "spike": "SP1",
+  "phase": "P2",
+  "methods_evaluated": [
+    "A1_css",
+    "A2_jsonld",
+    "A2_meta"
+  ],
+  "metrics": {
+    "A1": {
+      "coverage": 15,
+      "correct": 12,
+      "accuracy": 0.48
+    },
+    "A2": {
+      "coverage": 15,
+      "correct": 14,
+      "accuracy": 0.56
+    },
+    "best_deterministic": {
+      "coverage": 20,
+      "correct": 19,
+      "accuracy": 0.76
+    },
+    "n": 25,
+    "avg_extract_ms": 2.572
+  },
+  "per_site": {
+    "dartel": {
+      "n": 5,
+      "A1": {
+        "coverage": 0,
+        "correct": 0
+      },
+      "A2": {
+        "coverage": 5,
+        "correct": 5
+      },
+      "best": {
+        "coverage": 5,
+        "correct": 5
+      }
+    },
+    "vitelenergia": {
+      "n": 5,
+      "A1": {
+        "coverage": 5,
+        "correct": 2
+      },
+      "A2": {
+        "coverage": 5,
+        "correct": 4
+      },
+      "best": {
+        "coverage": 5,
+        "correct": 4
+      }
+    },
+    "tecnored": {
+      "n": 5,
+      "A1": {
+        "coverage": 5,
+        "correct": 5
+      },
+      "A2": {
+        "coverage": 5,
+        "correct": 5
+      },
+      "best": {
+        "coverage": 5,
+        "correct": 5
+      }
+    },
+    "rhona": {
+      "n": 5,
+      "A1": {
+        "coverage": 5,
+        "correct": 5
+      },
+      "A2": {
+        "coverage": 0,
+        "correct": 0
+      },
+      "best": {
+        "coverage": 5,
+        "correct": 5
+      }
+    },
+    "sonepar": {
+      "n": 5,
+      "A1": {
+        "coverage": 0,
+        "correct": 0
+      },
+      "A2": {
+        "coverage": 0,
+        "correct": 0
+      },
+      "best": {
+        "coverage": 0,
+        "correct": 0
+      }
+    }
+  },
+  "notes": [
+    "CPU-only extraction time on cached HTML (no network); network latency measured in P3.",
+    "sonepar excluded: SPA shell has no server-rendered price -> covered by A3 (API).",
+    "Accuracy = exact integer match vs gold_set.draft.json ground_truth."
+  ]
+}

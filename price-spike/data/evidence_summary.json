@@ -1,0 +1,170 @@
+{
+  "spike": "SP1",
+  "phases": [
+    "P2",
+    "P3"
+  ],
+  "generated_for": "P5 MCDA",
+  "matrix": {
+    "dartel": {
+      "n": 5,
+      "methods": {
+        "A1_css": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 2.6,
+          "accuracy": 0.0
+        },
+        "A2_structured": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 2.6,
+          "accuracy": 1.0
+        },
+        "A3_browser": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 11594.8,
+          "accuracy": 1.0
+        },
+        "A3_api": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 378.8,
+          "accuracy": 1.0
+        }
+      },
+      "recommended_method": "A2_structured",
+      "recommended_accuracy": 1.0
+    },
+    "vitelenergia": {
+      "n": 5,
+      "methods": {
+        "A1_css": {
+          "coverage": 5,
+          "correct": 2,
+          "latency_ms": 2.6,
+          "accuracy": 0.4
+        },
+        "A2_structured": {
+          "coverage": 5,
+          "correct": 4,
+          "latency_ms": 2.6,
+          "accuracy": 0.8
+        },
+        "A3_browser": {
+          "coverage": 5,
+          "correct": 4,
+          "latency_ms": 14086.4,
+          "accuracy": 0.8
+        },
+        "A3_api": {
+          "coverage": 5,
+          "correct": 3,
+          "latency_ms": 588.4,
+          "accuracy": 0.6
+        }
+      },
+      "recommended_method": "A2_structured",
+      "recommended_accuracy": 0.8
+    },
+    "tecnored": {
+      "n": 5,
+      "methods": {
+        "A1_css": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 2.6,
+          "accuracy": 1.0
+        },
+        "A2_structured": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 2.6,
+          "accuracy": 1.0
+        },
+        "A3_browser": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 16190.2,
+          "accuracy": 1.0
+        },
+        "A3_api": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 0.0,
+          "accuracy": 0.0
+        }
+      },
+      "recommended_method": "A1_css",
+      "recommended_accuracy": 1.0
+    },
+    "rhona": {
+      "n": 5,
+      "methods": {
+        "A1_css": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 2.6,
+          "accuracy": 1.0
+        },
+        "A2_structured": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 2.6,
+          "accuracy": 0.0
+        },
+        "A3_browser": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 2950.1,
+          "accuracy": 1.0
+        },
+        "A3_api": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 0.0,
+          "accuracy": 0.0
+        }
+      },
+      "recommended_method": "A1_css",
+      "recommended_accuracy": 1.0
+    },
+    "sonepar": {
+      "n": 5,
+      "methods": {
+        "A1_css": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 2.6,
+          "accuracy": 0.0
+        },
+        "A2_structured": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 2.6,
+          "accuracy": 0.0
+        },
+        "A3_browser": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 2345.1,
+          "accuracy": 0.0
+        },
+        "A3_api": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 1053.3,
+          "accuracy": 1.0
+        }
+      },
+      "recommended_method": "A3_api",
+      "recommended_accuracy": 1.0
+    }
+  },
+  "notes": [
+    "A1/A2 latency is CPU-only (cached HTML); A3_browser is wall-clock render; A3_api is network call.",
+    "Accuracy = exact integer match vs gold set.",
+    "sonepar A3_api = authenticated guest API (products/client/details)."
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "spike": "SP1",
+  "phase": "P3",
+  "method": "A3_api (official/internal APIs)",
+  "metrics": {
+    "n": 25,
+    "coverage": 15,
+    "correct": 13,
+    "accuracy": 0.52,
+    "avg_ms": 404.1
+  },
+  "per_site": {
+    "dartel": {
+      "n": 5,
+      "coverage": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "avg_ms": 378.8
+    },
+    "vitelenergia": {
+      "n": 5,
+      "coverage": 5,
+      "correct": 3,
+      "accuracy": 0.6,
+      "avg_ms": 588.4
+    },
+    "tecnored": {
+      "n": 5,
+      "coverage": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_ms": 0.0
+    },
+    "rhona": {
+      "n": 5,
+      "coverage": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_ms": 0.0
+    },
+    "sonepar": {
+      "n": 5,
+      "coverage": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "avg_ms": 1053.3
+    }
+  },
+  "rows": [
+    {
+      "site": "dartel",
+      "index": 1,
+      "url": "https://www.dartel.cl/curva-tubo-libre-de-halogenos-20mm-libre-de-halogenos-ip40---gewiss-40120103-gewiss/p",
+      "extracted": 366.0,
+      "truth": 366,
+      "source": "vtex(mpn=40120103)",
+      "ms": 409.6,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "dartel",
+      "index": 2,
+      "url": "https://www.dartel.cl/piloto-led-plast-22mm-ro-24vac-dc--b-torn-2452661-siemens/p",
+      "extracted": 31966.0,
+      "truth": 31966,
+      "source": "vtex(mpn=2452661)",
+      "ms": 804.5,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "dartel",
+      "index": 3,
+      "url": "https://www.dartel.cl/fusible-10x38-25a-gg-fx-2520-2502034-fnx/p",
+      "extracted": 278.0,
+      "truth": 278,
+      "source": "vtex(mpn=2502034)",
+      "ms": 219.9,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "dartel",
+      "index": 4,
+      "url": "https://www.dartel.cl/rollo-cable-2-5mm-100mts-azul-libre-de-halogenos-35200271-nexans---cocesa/p",
+      "extracted": 44266.0,
+      "truth": 44266,
+      "source": "vtex(mpn=35200271)",
+      "ms": 208.4,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "dartel",
+      "index": 5,
+      "url": "https://www.dartel.cl/caja-moldeada-sin-regulacion-drx-250n---25ka-415v-250a-2711704-legrand/p",
+      "extracted": 413824.0,
+      "truth": 413824,
+      "source": "vtex(mpn=2711704)",
+      "ms": 251.8,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "vitelenergia",
+      "index": 1,
+      "url": "https://vitelenergia.com/es/cable-eco-revi-l-h-1-5mm-h07z1-k-lineal-2.html",
+      "extracted": 291,
+      "truth": 291.0,
+      "source": "graphql_final",
+      "ms": 824.8,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "vitelenergia",
+      "index": 2,
+      "url": "https://vitelenergia.com/es/cable-eco-revi-l-h-2-5mm-h07z1-k-lineal-2.html",
+      "extracted": 485,
+      "truth": 478.0,
+      "source": "graphql_final",
+      "ms": 530.2,
+      "covered": true,
+      "correct": false
+    },
+    {
+      "site": "vitelenergia",
+      "index": 3,
+      "url": "https://vitelenergia.com/es/cable-eva-1-5mm2-libre-de-halogeno-h07z1-k-x-metros.html",
+      "extracted": 299,
+      "truth": 299.0,
+      "source": "graphql_final",
+      "ms": 528.7,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "vitelenergia",
+      "index": 4,
+      "url": "https://vitelenergia.com/es/cable-libre-de-halogeno-1-5mm-h07z1-k-x-rollo-100-mts-2.html",
+      "extracted": 27937,
+      "truth": 29179,
+      "source": "graphql_final",
+      "ms": 538.8,
+      "covered": true,
+      "correct": false
+    },
+    {
+      "site": "vitelenergia",
+      "index": 5,
+      "url": "https://vitelenergia.com/es/cable-libre-de-halogeno-2-5mm2-h07z1-k-x-rollo-10-mts.html",
+      "extracted": 6167,
+      "truth": 6167.0,
+      "source": "graphql_final",
+      "ms": 519.5,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "tecnored",
+      "index": 1,
+      "url": "https://www.tiendatecnored.cl/bandeja-canaleta-pvc-100x50mm-2-metros-con-varillas-blanco.html",
+      "extracted": null,
+      "truth": 10826.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "tecnored",
+      "index": 2,
+      "url": "https://www.tiendatecnored.cl/cable-preensamblado-1x16-1x16mm2-neutro-desnudo-elexor.html",
+      "extracted": null,
+      "truth": 672.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "tecnored",
+      "index": 3,
+      "url": "https://www.tiendatecnored.cl/cable-solar-10mm2-negro-elexor.html",
+      "extracted": null,
+      "truth": 2128.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "tecnored",
+      "index": 4,
+      "url": "https://www.tiendatecnored.cl/canaleta-pvc-14x7mm-x-2-metros-blanco-con-adhesivo-economico.html",
+      "extracted": null,
+      "truth": 2101.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "tecnored",
+      "index": 5,
+      "url": "https://www.tiendatecnored.cl/cond-fotovol-h1z2z2-k-4mm2-rojo-elexor.html",
+      "extracted": null,
+      "truth": 763.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "rhona",
+      "index": 1,
+      "url": "https://rhona.cl/producto/10332/panel-solar-monocristalino-azul.html",
+      "extracted": null,
+      "truth": 187124.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "rhona",
+      "index": 2,
+      "url": "https://rhona.cl/producto/10587/panel-solar-monocristalino.html",
+      "extracted": null,
+      "truth": 126875.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "rhona",
+      "index": 3,
+      "url": "https://rhona.cl/producto/11293/panel-solar-monocristalino.html",
+      "extracted": null,
+      "truth": 108626.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "rhona",
+      "index": 4,
+      "url": "https://rhona.cl/producto/12095/panel-solar-bifacial-620wp.html",
+      "extracted": null,
+      "truth": 121348.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "rhona",
+      "index": 5,
+      "url": "https://rhona.cl/producto/10335/inversor-monofasico.html",
+      "extracted": null,
+      "truth": 544544.0,
+      "source": "no_api_probed",
+      "ms": 0.0,
+      "covered": false,
+      "correct": false
+    },
+    {
+      "site": "sonepar",
+      "index": 1,
+      "url": "https://shop.sonepar.cl/products/1000017/TI66942/ACCESORIO_CAJA_DISTRIBUCI%C3%93N_REDONDA_3_MOD_SENSOR_WATT_STOPPER_355",
+      "extracted": 2749,
+      "truth": 2749,
+      "source": "sonepar_api",
+      "ms": 1743.3,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "sonepar",
+      "index": 2,
+      "url": "https://shop.sonepar.cl/products/1000099/SCH10125/GUARDAMOTOR_TRIPOLAR_1%2C6-2%2C5A_100KA_EASYPACT_TVS",
+      "extracted": 41688,
+      "truth": 41688,
+      "source": "sonepar_api",
+      "ms": 889.5,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "sonepar",
+      "index": 3,
+      "url": "https://shop.sonepar.cl/products/1000109/TE92580/GUARDAMOTOR_3P_24-32A_35KA_TESYS_GV2P32",
+      "extracted": 406258,
+      "truth": 406258,
+      "source": "sonepar_api",
+      "ms": 879.0,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "sonepar",
+      "index": 4,
+      "url": "https://shop.sonepar.cl/products/1000115/TE92584/GUARDAMOTOR_TRIPOLAR_17-23A_50KA_TESYS_GV2",
+      "extracted": 271639,
+      "truth": 271639,
+      "source": "sonepar_api",
+      "ms": 863.2,
+      "covered": true,
+      "correct": true
+    },
+    {
+      "site": "sonepar",
+      "index": 5,
+      "url": "https://shop.sonepar.cl/products/1000114/TE10008/GUARDAMOTOR_TRIPOLAR_9-13A_100KA",
+      "extracted": 226567,
+      "truth": 226567,
+      "source": "sonepar_api",
+      "ms": 891.5,
+      "covered": true,
+      "correct": true
+    }
+  ],
+  "notes": [
+    "sonepar: authenticated guest API (products/client/details).",
+    "dartel: VTEX public catalog search API (commertialOffer.Price).",
+    "vitelenergia: Magento 2 GraphQL (price_range). Magento REST V1 requires auth (401).",
+    "tecnored/rhona: no usable public API found (Magento REST 401; rhona has no API)."
+  ]
+}

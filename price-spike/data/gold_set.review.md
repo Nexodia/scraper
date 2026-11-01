@@ -1,6 +1,6 @@
 # Gold set — review status (P1)
 
-`reviewed=true` means you confirmed the price by hand. sonepar is pending login.
+`reviewed=true` = price confirmed. Sonepar prices came from the authenticated guest API (P3).
 
 | Site | # | Price (CLP) | Currency | Source | Reviewed | URL |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,8 +24,8 @@
 | rhona | 3 | 108.626 | CLP | visible | ✅ | https://rhona.cl/producto/11293/panel-solar-monocristalino.html |
 | rhona | 4 | 121.348 | CLP | visible | ✅ | https://rhona.cl/producto/12095/panel-solar-bifacial-620wp.html |
 | rhona | 5 | 544.544 | CLP | visible | ✅ | https://rhona.cl/producto/10335/inversor-monofasico.html |
-| sonepar | 1 | — | — | — | ⬜ | https://shop.sonepar.cl/products/1000017/TI66942/ACCESORIO_CAJA_DISTRIBUCI%C3%93N_REDONDA_3_MOD_SENSOR_WATT_STOPPER_355 |
-| sonepar | 2 | — | — | — | ⬜ | https://shop.sonepar.cl/products/1000099/SCH10125/GUARDAMOTOR_TRIPOLAR_1%2C6-2%2C5A_100KA_EASYPACT_TVS |
-| sonepar | 3 | — | — | — | ⬜ | https://shop.sonepar.cl/products/1000109/TE92580/GUARDAMOTOR_3P_24-32A_35KA_TESYS_GV2P32 |
-| sonepar | 4 | — | — | — | ⬜ | https://shop.sonepar.cl/products/1000113/SS66144/GUARDAMOTOR_TRIPOLAR_1%2C8-2%2C5A_100KA_S00 |
-| sonepar | 5 | — | — | — | ⬜ | https://shop.sonepar.cl/products/1000114/TE10008/GUARDAMOTOR_TRIPOLAR_9-13A_100KA |
+| sonepar | 1 | 2.749 | CLP | sonepar_api | ✅ | https://shop.sonepar.cl/products/1000017/TI66942/ACCESORIO_CAJA_DISTRIBUCI%C3%93N_REDONDA_3_MOD_SENSOR_WATT_STOPPER_355 |
+| sonepar | 2 | 41.688 | CLP | sonepar_api | ✅ | https://shop.sonepar.cl/products/1000099/SCH10125/GUARDAMOTOR_TRIPOLAR_1%2C6-2%2C5A_100KA_EASYPACT_TVS |
+| sonepar | 3 | 406.258 | CLP | sonepar_api | ✅ | https://shop.sonepar.cl/products/1000109/TE92580/GUARDAMOTOR_3P_24-32A_35KA_TESYS_GV2P32 |
+| sonepar | 4 | 271.639 | CLP | sonepar_api | ✅ | https://shop.sonepar.cl/products/1000115/TE92584/GUARDAMOTOR_TRIPOLAR_17-23A_50KA_TESYS_GV2 |
+| sonepar | 5 | 226.567 | CLP | sonepar_api | ✅ | https://shop.sonepar.cl/products/1000114/TE10008/GUARDAMOTOR_TRIPOLAR_9-13A_100KA |

@@ -29,9 +29,9 @@ Requirement → Driver → Signal → Uncertainty → Question → Spike → Evi
 | Phase | Goal | Status |
 | --- | --- | --- |
 | P0 — Scaffold | Project skeleton adapted from the teacher's `devspeed-live` (ADK + MCP + guardrails) | ✅ done |
-| P1 — Gold set | 25 product pages (5/site) snapshotted + prices labeled | 🟡 24/25 human-confirmed; Sonepar pending login |
-| P2 — Deterministic baseline | A1 CSS crawler + A2 JSON-LD/meta, measured vs. gold set | ⬜ next |
-| P3 — Browser + APIs | A3 Playwright + Magento/VTEX/Sonepar APIs | ⬜ |
+| P1 — Gold set | 25 product pages (5/site) snapshotted + prices labeled | ✅ 25/25 priced (Sonepar via authenticated guest API) |
+| P2 — Deterministic baseline | A1 CSS crawler + A2 JSON-LD/meta, measured vs. gold set | ✅ done (coverage 20/25; 19/20 exact on covered = 95 %) |
+| P3 — Browser + APIs | A3 Playwright + Magento/VTEX/Sonepar APIs | ✅ done (browser adds no accuracy; API only needed for Sonepar) |
 | P4 — LLM + agentic verifier | A4 LLM fallback + A5 verifier gate (reuses the scaffold) | ⬜ |
 | P5 — Analyze → ADR | Admissibility → MCDA → sensitivity → ADR-001 + traceability | ⬜ |
 
@@ -53,12 +53,24 @@ Requirement → Driver → Signal → Uncertainty → Question → Spike → Evi
 2. **rhona is the classic hard case**: no structured data at all; prices only in visible text
    with `.` as thousands separator.
 3. **Sonepar is the restricted case**: the anonymous API returns `"price": {}`; prices are
-   client-specific and require OAuth2 login. Auth is reverse-engineered
-   ([`sonepar_auth.py`](./price-spike/services/sonepar_auth.py)); the one-time login is manual
-   (reCAPTCHA is never automated) — see below.
+   client-specific and require OAuth2. The guest login (`grant_type=guest_credentials`) works:
+   name + email + branch + reCAPTCHA (manual) → OAuth tokens. The authenticated
+   `products/client/details` endpoint returns client-specific prices
+   ([`sonepar_auth.py`](./price-spike/services/sonepar_auth.py)). Finding: the guest client is
+   `CLIENTE GENERICO` (id `66666666`) and an out-of-stock SKU (`1000113`) returned an empty
+   `price` object — prices are per-client and absent for some SKUs.
 4. **The gold set is the reference** for evaluating every extraction method in P2–P4. It lives in
    [`price-spike/data/gold_set.draft.json`](./price-spike/data/gold_set.draft.json) with a
    human-review table in [`price-spike/data/gold_set.review.md`](./price-spike/data/gold_set.review.md).
+5. **P2 result (deterministic baseline)**: the best deterministic method covers **20/25** URLs and is
+   exact on **19/20 covered (95 %)** — 100 % on 4/5 sites but **0 % on Sonepar** (SPA renders prices
+   only via the API). One multi-variant product (vitelenergia #4) shows meta-tag ambiguity. Evidence
+   in [`price-spike/data/evidence_p2.json`](./price-spike/data/evidence_p2.json).
+6. **P3 result (browser + APIs)**: the browser (A3) adds **no accuracy** over deterministic methods
+   on these sites — only latency (9.4 s vs 2.6 ms). The official APIs close the gap: VTEX search
+   (dartel 100 %), Magento GraphQL (vitelenergia, variant-sensitive), and the authenticated Sonepar
+   API (100 %). Full matrix in
+   [`price-spike/data/evidence_summary.json`](./price-spike/data/evidence_summary.json).
 
 ### Alternatives under test (from [PLAN.md](./PLAN.md))
 

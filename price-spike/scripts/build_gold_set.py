@@ -63,7 +63,7 @@ SELECTED = {
         "https://shop.sonepar.cl/products/1000017/TI66942/ACCESORIO_CAJA_DISTRIBUCI%C3%93N_REDONDA_3_MOD_SENSOR_WATT_STOPPER_355",
         "https://shop.sonepar.cl/products/1000099/SCH10125/GUARDAMOTOR_TRIPOLAR_1%2C6-2%2C5A_100KA_EASYPACT_TVS",
         "https://shop.sonepar.cl/products/1000109/TE92580/GUARDAMOTOR_3P_24-32A_35KA_TESYS_GV2P32",
-        "https://shop.sonepar.cl/products/1000113/SS66144/GUARDAMOTOR_TRIPOLAR_1%2C8-2%2C5A_100KA_S00",
+        "https://shop.sonepar.cl/products/1000115/TE92584/GUARDAMOTOR_TRIPOLAR_17-23A_50KA_TESYS_GV2",
         "https://shop.sonepar.cl/products/1000114/TE10008/GUARDAMOTOR_TRIPOLAR_9-13A_100KA",
     ],
 }

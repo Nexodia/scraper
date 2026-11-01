@@ -35,8 +35,39 @@ herramientas.
 ## Estado
 
 - [x] P0 — scaffold y configuración de sitios
-- [~] P1 — gold set (borrador generado; falta confirmación manual en `data/gold_set.review.md`)
-- [ ] P2 — baseline determinista (A1 crawler, A2 JSON-LD)
-- [ ] P3 — browser + APIs (A3)
+- [x] P1 — gold set completo (25/25 con precios; Sonepar vía API de invitado)
+- [x] P2 — baseline determinista (A1 CSS, A2 estructurado) medido contra el gold set
+- [x] P3 — browser (A3 Playwright) + APIs oficiales, medidos contra el gold set
 - [ ] P4 — extracción LLM + verifier agéntico (A4/A5)
 - [ ] P5 — evidencia → MCDA → ADR-001
+
+## Resultado P2 (baseline determinista, sobre HTML cacheado)
+
+| Sitio | A1 CSS | A2 estructurado | Mejor |
+| --- | --- | --- | --- |
+| dartel (VTEX) | 0 % (precio renderiza por JS) | **100 %** (JSON-LD) | 100 % |
+| vitelenergia (Magento 2 Hyva) | 40 % (selector frágil) | **80 %** (meta) | 80 % |
+| tecnored (Magento) | **100 %** (`data-price-amount`) | **100 %** (meta) | 100 % |
+| rhona (MIPLUS legacy) | **100 %** (CSS visible) | 0 % (sin datos estructurados) | 100 % |
+| sonepar (SPA) | 0 % | 0 % | 0 % → requiere A3 (API) |
+
+Total: **cobertura 20/25 (80 %)**; **exactitud 19/20 sobre cubiertos (95 %)** — 19/25 (76 %) si se
+cuenta sonepar. Evidencia: `data/evidence_p2.json`.
+Hallazgos: (1) ningún método determinista cubre todos los patrones; (2) vitelenergia #4 es un
+producto multi-variante donde el meta refleja otra variante; (3) Hyva renderiza el precio por JS,
+lo que hace frágiles los selectores CSS.
+
+## Resultado P3 (browser + APIs)
+
+| Sitio | A3 browser | A3 API | Recomendado |
+| --- | --- | --- | --- |
+| dartel (VTEX) | 100 % (~11,6 s) | 100 % (VTEX search por mpn, ~380 ms) | A2 JSON-LD (más barato) |
+| vitelenergia (Magento 2) | 80 % (~14 s) | 60 % (GraphQL; variantes ambiguas) | A2 meta |
+| tecnored (Magento) | 100 % (~16 s) | n/d (REST 401) | A1/A2 |
+| rhona (legacy) | 100 % (~3 s) | n/d (sin API) | A1 CSS |
+| sonepar (SPA) | 0 % (shell sin auth) | **100 %** (OAuth2 + `products/client/details`) | A3 API |
+
+**Hallazgo clave P3**: el browser (A3) **no mejora la exactitud** frente a los métodos deterministas
+en estos 5 sitios — solo añade latencia (9,4 s promedio vs 2,6 ms). La API solo es necesaria para
+sonepar (SPA restringida). Evidencia: `data/evidence_p3.json`, `data/evidence_p3_apis.json`,
+`data/evidence_summary.json`.

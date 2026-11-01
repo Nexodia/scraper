@@ -28,7 +28,36 @@
       "ground_truth_source": "jsonld",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": 366.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "366",
+          "method": "A2_structured"
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null
+        },
+        "best": {
+          "price": 366.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "366",
+          "method": "A2_structured"
+        },
+        "extract_ms": 4.031
+      }
     },
     {
       "site": "dartel",
@@ -57,7 +86,36 @@
       "ground_truth_source": "jsonld",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": 31966.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "31966",
+          "method": "A2_structured"
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null
+        },
+        "best": {
+          "price": 31966.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "31966",
+          "method": "A2_structured"
+        },
+        "extract_ms": 3.98
+      }
     },
     {
       "site": "dartel",
@@ -86,7 +144,36 @@
       "ground_truth_source": "jsonld",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": 278.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "278",
+          "method": "A2_structured"
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null
+        },
+        "best": {
+          "price": 278.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "278",
+          "method": "A2_structured"
+        },
+        "extract_ms": 3.677
+      }
     },
     {
       "site": "dartel",
@@ -115,7 +202,36 @@
       "ground_truth_source": "jsonld",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": 44266.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "44266",
+          "method": "A2_structured"
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null
+        },
+        "best": {
+          "price": 44266.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "44266",
+          "method": "A2_structured"
+        },
+        "extract_ms": 4.084
+      }
     },
     {
       "site": "dartel",
@@ -144,7 +260,36 @@
       "ground_truth_source": "jsonld",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": 413824.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "413824",
+          "method": "A2_structured"
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null
+        },
+        "best": {
+          "price": 413824.0,
+          "currency": "CLP",
+          "source": "jsonld",
+          "raw": "413824",
+          "method": "A2_structured"
+        },
+        "extract_ms": 3.552
+      }
     },
     {
       "site": "vitelenergia",
@@ -176,7 +321,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 3755.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$3.755"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 291.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "291",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 291.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "291",
+          "method": "A2_structured"
+        },
+        "extract_ms": 6.814
+      }
     },
     {
       "site": "vitelenergia",
@@ -208,7 +382,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 2090.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$2.090"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 478.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "478",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 478.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "478",
+          "method": "A2_structured"
+        },
+        "extract_ms": 5.809
+      }
     },
     {
       "site": "vitelenergia",
@@ -240,7 +443,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 299.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$299"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 299.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "299",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 299.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "299",
+          "method": "A2_structured"
+        },
+        "extract_ms": 4.994
+      }
     },
     {
       "site": "vitelenergia",
@@ -272,7 +504,36 @@
       "ground_truth_source": "human_review",
       "ground_truth_note": "Reviewed: multi-variant product (5 alternatives); default price 29179 CLP",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 3755.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$3.755"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 27937.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "27937",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 27937.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "27937",
+          "method": "A2_structured"
+        },
+        "extract_ms": 6.547
+      }
     },
     {
       "site": "vitelenergia",
@@ -304,7 +565,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 6167.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$6.167"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 6167.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "6167",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 6167.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "6167",
+          "method": "A2_structured"
+        },
+        "extract_ms": 4.984
+      }
     },
     {
       "site": "tecnored",
@@ -336,7 +626,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 10826.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "10826"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 10826.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "10826",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 10826.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "10826",
+          "method": "A2_structured"
+        },
+        "extract_ms": 1.936
+      }
     },
     {
       "site": "tecnored",
@@ -368,7 +687,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 672.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "672"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 672.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "672",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 672.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "672",
+          "method": "A2_structured"
+        },
+        "extract_ms": 1.875
+      }
     },
     {
       "site": "tecnored",
@@ -400,7 +748,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 2128.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "2128"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 2128.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "2128",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 2128.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "2128",
+          "method": "A2_structured"
+        },
+        "extract_ms": 1.666
+      }
     },
     {
       "site": "tecnored",
@@ -432,7 +809,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 2101.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "2101"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 2101.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "2101",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 2101.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "2101",
+          "method": "A2_structured"
+        },
+        "extract_ms": 1.843
+      }
     },
     {
       "site": "tecnored",
@@ -464,7 +870,36 @@
       "ground_truth_source": "meta",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 763.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "763"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": 763.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "763",
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 763.0,
+          "currency": "CLP",
+          "source": "meta",
+          "raw": "763",
+          "method": "A2_structured"
+        },
+        "extract_ms": 1.862
+      }
     },
     {
       "site": "rhona",
@@ -492,7 +927,35 @@
       "ground_truth_source": "visible",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 187124.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 187.124"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 187124.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 187.124"
+        },
+        "extract_ms": 1.27
+      }
     },
     {
       "site": "rhona",
@@ -520,7 +983,35 @@
       "ground_truth_source": "visible",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 126875.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 126.875"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 126875.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 126.875"
+        },
+        "extract_ms": 1.201
+      }
     },
     {
       "site": "rhona",
@@ -548,7 +1039,35 @@
       "ground_truth_source": "visible",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 108626.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 108.626"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 108626.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 108.626"
+        },
+        "extract_ms": 1.187
+      }
     },
     {
       "site": "rhona",
@@ -576,7 +1095,35 @@
       "ground_truth_source": "visible",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 121348.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 121.348"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 121348.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 121.348"
+        },
+        "extract_ms": 1.245
+      }
     },
     {
       "site": "rhona",
@@ -604,7 +1151,35 @@
       "ground_truth_source": "visible",
       "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
       "needs_human_review": false,
-      "reviewed": true
+      "reviewed": true,
+      "_p2": {
+        "A1_css": {
+          "price": 544544.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 544.544"
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": 544544.0,
+          "currency": "CLP",
+          "source": "css",
+          "raw": "$ 544.544"
+        },
+        "extract_ms": 1.097
+      }
     },
     {
       "site": "sonepar",
@@ -618,12 +1193,42 @@
         "meta_price_currency": [],
         "visible_prices": []
       },
-      "ground_truth": null,
-      "ground_truth_currency": null,
-      "ground_truth_source": null,
-      "ground_truth_note": "PENDING: needs login (P3/P4)",
-      "needs_human_review": true,
-      "reviewed": false
+      "ground_truth": 2749,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "sonepar_api",
+      "ground_truth_note": "Authenticated guest API: ACCESORIO CAJA DISTRIBUCIÓN REDONDA 3 MOD SENSOR WATT STOPPER 355; source product 1000017",
+      "needs_human_review": false,
+      "reviewed": true,
+      "product_id": "1000017",
+      "product_name": "ACCESORIO CAJA DISTRIBUCIÓN REDONDA 3 MOD SENSOR WATT STOPPER 355",
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "extract_ms": 0.144
+      }
     },
     {
       "site": "sonepar",
@@ -637,12 +1242,42 @@
         "meta_price_currency": [],
         "visible_prices": []
       },
-      "ground_truth": null,
-      "ground_truth_currency": null,
-      "ground_truth_source": null,
-      "ground_truth_note": "PENDING: needs login (P3/P4)",
-      "needs_human_review": true,
-      "reviewed": false
+      "ground_truth": 41688,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "sonepar_api",
+      "ground_truth_note": "Authenticated guest API: GUARDAMOTOR TRIPOLAR 1,6-2,5A 100KA EASYPACT TVS; source product 1000099",
+      "needs_human_review": false,
+      "reviewed": true,
+      "product_id": "1000099",
+      "product_name": "GUARDAMOTOR TRIPOLAR 1,6-2,5A 100KA EASYPACT TVS",
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "extract_ms": 0.199
+      }
     },
     {
       "site": "sonepar",
@@ -656,31 +1291,91 @@
         "meta_price_currency": [],
         "visible_prices": []
       },
-      "ground_truth": null,
-      "ground_truth_currency": null,
-      "ground_truth_source": null,
-      "ground_truth_note": "PENDING: needs login (P3/P4)",
-      "needs_human_review": true,
-      "reviewed": false
+      "ground_truth": 406258,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "sonepar_api",
+      "ground_truth_note": "Authenticated guest API: GUARDAMOTOR 3P 24-32A 35KA TESYS GV2P32; source product 1000109",
+      "needs_human_review": false,
+      "reviewed": true,
+      "product_id": "1000109",
+      "product_name": "GUARDAMOTOR 3P 24-32A 35KA TESYS GV2P32",
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "extract_ms": 0.142
+      }
     },
     {
       "site": "sonepar",
       "index": 4,
-      "url": "https://shop.sonepar.cl/products/1000113/SS66144/GUARDAMOTOR_TRIPOLAR_1%2C8-2%2C5A_100KA_S00",
-      "html_file": "data\\raw\\sonepar\\04_GUARDAMOTOR_TRIPOLAR_1-2C8-2-2C5A_100KA_S00.html",
-      "meta_file": "data\\raw\\sonepar\\04_GUARDAMOTOR_TRIPOLAR_1-2C8-2-2C5A_100KA_S00.meta.json",
+      "url": "https://shop.sonepar.cl/products/1000115/TE92584/GUARDAMOTOR_TRIPOLAR_17-23A_50KA_TESYS_GV2",
+      "html_file": null,
+      "meta_file": null,
       "candidates": {
         "jsonld_offers": [],
         "meta_price_amount": [],
         "meta_price_currency": [],
         "visible_prices": []
       },
-      "ground_truth": null,
-      "ground_truth_currency": null,
-      "ground_truth_source": null,
-      "ground_truth_note": "PENDING: needs login (P3/P4)",
-      "needs_human_review": true,
-      "reviewed": false
+      "ground_truth": 271639,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "sonepar_api",
+      "ground_truth_note": "Authenticated guest API: GUARDAMOTOR TRIPOLAR 17-23A 50KA TESYS GV2; source product 1000115",
+      "needs_human_review": false,
+      "reviewed": true,
+      "product_id": "1000115",
+      "product_name": "GUARDAMOTOR TRIPOLAR 17-23A 50KA TESYS GV2",
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "extract_ms": 0.035
+      }
     },
     {
       "site": "sonepar",
@@ -694,12 +1389,42 @@
         "meta_price_currency": [],
         "visible_prices": []
       },
-      "ground_truth": null,
-      "ground_truth_currency": null,
-      "ground_truth_source": null,
-      "ground_truth_note": "PENDING: needs login (P3/P4)",
-      "needs_human_review": true,
-      "reviewed": false
+      "ground_truth": 226567,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "sonepar_api",
+      "ground_truth_note": "Authenticated guest API: GUARDAMOTOR TRIPOLAR 9-13A 100KA; source product 1000114",
+      "needs_human_review": false,
+      "reviewed": true,
+      "product_id": "1000114",
+      "product_name": "GUARDAMOTOR TRIPOLAR 9-13A 100KA",
+      "_p2": {
+        "A1_css": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "A2_jsonld": {
+          "price": null,
+          "currency": null,
+          "source": "jsonld",
+          "raw": null
+        },
+        "A2_meta": {
+          "price": null,
+          "currency": null,
+          "source": "meta",
+          "raw": null,
+          "method": "A2_structured"
+        },
+        "best": {
+          "price": null,
+          "currency": null,
+          "source": "css",
+          "raw": null
+        },
+        "extract_ms": 0.126
+      }
     }
   ]
 }

@@ -17,6 +17,8 @@ in a real browser (scripts/sonepar_login.py), which stores the refresh_token loc
 This module then mints access tokens via the standard refresh grant.
 """
 import os
+import re
+from pathlib import Path
 
 import httpx
 
@@ -71,20 +73,37 @@ def pricing(client_id: str, user_id: str, product_ids: list[str], access_token: 
 class SoneparClient:
     """Small stateful client: mints a token once and reuses it for product calls."""
 
-    def __init__(self, refresh_token: str, client_id: str, user_id: str | None = None):
+    def __init__(self, refresh_token: str, client_id: str, user_id: str | None = None,
+                 env_path: str | None = None):
         self.refresh_token = refresh_token
         self.client_id = client_id
         self.user_id = user_id
+        self.env_path = env_path
         self._access_token: str | None = None
 
     def ensure_token(self) -> str:
         if not self._access_token:
             token = oauth_refresh(self.refresh_token)
             self._access_token = token["access_token"]
-            # Refresh tokens may rotate; prefer the new one when present.
+            # Refresh tokens ROTATE on every use; persist the new one immediately
+            # so it is never lost (the old token becomes invalid after refresh).
             if token.get("refresh_token"):
                 self.refresh_token = token["refresh_token"]
+                self._persist_refresh()
         return self._access_token
+
+    def _persist_refresh(self) -> None:
+        if not self.env_path:
+            return
+        env_file = Path(self.env_path)
+        if not env_file.exists():
+            return
+        txt = env_file.read_text(encoding="utf-8")
+        new_txt = re.sub(r"^SONEPAR_REFRESH_TOKEN=.*$",
+                         f"SONEPAR_REFRESH_TOKEN={self.refresh_token}",
+                         txt, count=1, flags=re.MULTILINE)
+        if new_txt != txt:
+            env_file.write_text(new_txt, encoding="utf-8")
 
     def get_product(self, product_id: str) -> dict:
         tok = self.ensure_token()
