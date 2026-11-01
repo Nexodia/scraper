@@ -38,8 +38,15 @@ herramientas.
 - [x] P1 — gold set completo (25/25 con precios; Sonepar vía API de invitado)
 - [x] P2 — baseline determinista (A1 CSS, A2 estructurado) medido contra el gold set
 - [x] P3 — browser (A3 Playwright) + APIs oficiales, medidos contra el gold set
-- [ ] P4 — extracción LLM + verifier agéntico (A4/A5)
-- [ ] P5 — evidencia → MCDA → ADR-001
+- [x] P4 — extracción LLM (A4) + verifier agéntico (A5), medidos contra el gold set
+- [x] P5 — evidencia → MCDA → ADR-001
+
+## Resultado P5 (MCDA + ADR)
+
+- **Decisión**: adoptar **A6 híbrido determinista-first** (JSON-LD/meta/CSS por sitio + API
+  autenticada para sonepar; LLM como fallback opcional). Puntaje MCDA **94,55** (siguiente: A4 76,60);
+  decisión **estable** ante variaciones de ±0,10 en cualquier peso.
+- **ADR**: `docs/ADR-001.md` · **Trazabilidad**: `docs/traceability.md` · **MCDA**: `data/evidence_mcda.json`.
 
 ## Resultado P2 (baseline determinista, sobre HTML cacheado)
 
@@ -71,3 +78,16 @@ lo que hace frágiles los selectores CSS.
 en estos 5 sitios — solo añade latencia (9,4 s promedio vs 2,6 ms). La API solo es necesaria para
 sonepar (SPA restringida). Evidencia: `data/evidence_p3.json`, `data/evidence_p3_apis.json`,
 `data/evidence_summary.json`.
+
+## Resultado P4 (LLM + verifier)
+
+- **A4 (Gemini flash-lite)**: 19/20 = **95 %** sobre los sitios no-Sonepar (mismo que el mejor
+  determinista); en Sonepar devuelve `null` correctamente (no alucina precio). Latencia ~11,5 s/ítem
+  y ~1,23 M tokens.
+- **A5 (verifier)**: **no añadió exactitud** (19/25 = 19/25). Confirmó el único error real
+  (vitelenergia #4 multi-variante) en vez de corregirlo.
+- **429 quota**: 4 llamadas tocaron el límite de la capa gratuita de Gemini (retry con delay las
+  recuperó). Hallazgo operativo: el LLM introduce límites de cuota y latencia.
+- Modelo usado: `gemini-flash-lite-latest` (`gemini-flash-latest` estaba saturado con 503).
+
+Evidencia: `data/evidence_p4.json`. Matriz consolidada: `data/evidence_summary.json`.

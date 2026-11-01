@@ -18,6 +18,7 @@ Requirement → Driver → Signal → Uncertainty → Question → Spike → Evi
 | --- | --- |
 | [Guia_Spike_ADR.pdf](./Guia_Spike_ADR.pdf) | Methodology guide (Spanish) — requirements to ADR in 20 steps |
 | [PLAN.md](./PLAN.md) | Full spike plan: requirements R1–R10, drivers, signals, uncertainties, alternatives A1–A5, phases P0–P5 |
+| [REPORT.md](./REPORT.md) | Final report: evidence, MCDA, decision ADR-001, traceability |
 | [price-spike/](./price-spike/) | The working scaffold, site config, gold set, raw snapshots, and tools |
 | [price-spike/README.md](./price-spike/README.md) | Scaffold-specific details and run instructions |
 | [agenticExample/](./agenticExample/) | Teacher's multi-agent reference (`Google ADK` + `MCP` + guardrails); the pattern we reuse |
@@ -32,8 +33,8 @@ Requirement → Driver → Signal → Uncertainty → Question → Spike → Evi
 | P1 — Gold set | 25 product pages (5/site) snapshotted + prices labeled | ✅ 25/25 priced (Sonepar via authenticated guest API) |
 | P2 — Deterministic baseline | A1 CSS crawler + A2 JSON-LD/meta, measured vs. gold set | ✅ done (coverage 20/25; 19/20 exact on covered = 95 %) |
 | P3 — Browser + APIs | A3 Playwright + Magento/VTEX/Sonepar APIs | ✅ done (browser adds no accuracy; API only needed for Sonepar) |
-| P4 — LLM + agentic verifier | A4 LLM fallback + A5 verifier gate (reuses the scaffold) | ⬜ |
-| P5 — Analyze → ADR | Admissibility → MCDA → sensitivity → ADR-001 + traceability | ⬜ |
+| P4 — LLM + agentic verifier | A4 LLM fallback + A5 verifier gate (reuses the scaffold) | ✅ done (A4 95% on non-Sonepar; verifier adds 0 accuracy) |
+| P5 — Analyze → ADR | Admissibility → MCDA → sensitivity → ADR-001 + traceability | ✅ done (decision A6 hybrid; ADR-001) |
 
 ### Site pattern matrix (fingerprinted during P0/P1)
 
@@ -71,6 +72,15 @@ Requirement → Driver → Signal → Uncertainty → Question → Spike → Evi
    (dartel 100 %), Magento GraphQL (vitelenergia, variant-sensitive), and the authenticated Sonepar
    API (100 %). Full matrix in
    [`price-spike/data/evidence_summary.json`](./price-spike/data/evidence_summary.json).
+7. **P4 result (LLM + verifier)**: Gemini flash-lite reaches **19/20 (95 %)** on non-Sonepar — tying,
+   not beating, the deterministic methods — and the **agentic verifier adds zero accuracy** (it
+   confirmed, rather than caught, the one real ambiguity). LLM also brings quota limits and ~11.5 s
+   latency per item. Evidence in [`price-spike/data/evidence_p4.json`](./price-spike/data/evidence_p4.json).
+8. **P5 decision (ADR-001)**: adopt a **deterministic-first hybrid** with per-site routing
+   (JSON-LD/meta/CSS) plus the authenticated API for Sonepar; LLM only as an optional fallback.
+   MCDA score 94.55 (next-best A4 76.6), stable across weight sensitivity. See
+   [`price-spike/docs/ADR-001.md`](./price-spike/docs/ADR-001.md) and
+   [`price-spike/docs/traceability.md`](./price-spike/docs/traceability.md).
 
 ### Alternatives under test (from [PLAN.md](./PLAN.md))
 

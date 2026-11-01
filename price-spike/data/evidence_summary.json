@@ -2,7 +2,8 @@
   "spike": "SP1",
   "phases": [
     "P2",
-    "P3"
+    "P3",
+    "P4"
   ],
   "generated_for": "P5 MCDA",
   "matrix": {
@@ -31,6 +32,18 @@
           "coverage": 5,
           "correct": 5,
           "latency_ms": 378.8,
+          "accuracy": 1.0
+        },
+        "A4_llm": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 11537.1,
+          "accuracy": 1.0
+        },
+        "A5_verifier": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 11537.1,
           "accuracy": 1.0
         }
       },
@@ -63,6 +76,18 @@
           "correct": 3,
           "latency_ms": 588.4,
           "accuracy": 0.6
+        },
+        "A4_llm": {
+          "coverage": 5,
+          "correct": 4,
+          "latency_ms": 11537.1,
+          "accuracy": 0.8
+        },
+        "A5_verifier": {
+          "coverage": 5,
+          "correct": 4,
+          "latency_ms": 11537.1,
+          "accuracy": 0.8
         }
       },
       "recommended_method": "A2_structured",
@@ -94,6 +119,18 @@
           "correct": 0,
           "latency_ms": 0.0,
           "accuracy": 0.0
+        },
+        "A4_llm": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 11537.1,
+          "accuracy": 1.0
+        },
+        "A5_verifier": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 11537.1,
+          "accuracy": 1.0
         }
       },
       "recommended_method": "A1_css",
@@ -125,6 +162,18 @@
           "correct": 0,
           "latency_ms": 0.0,
           "accuracy": 0.0
+        },
+        "A4_llm": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 11537.1,
+          "accuracy": 1.0
+        },
+        "A5_verifier": {
+          "coverage": 5,
+          "correct": 5,
+          "latency_ms": 11537.1,
+          "accuracy": 1.0
         }
       },
       "recommended_method": "A1_css",
@@ -156,6 +205,18 @@
           "correct": 5,
           "latency_ms": 1053.3,
           "accuracy": 1.0
+        },
+        "A4_llm": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 11537.1,
+          "accuracy": 0.0
+        },
+        "A5_verifier": {
+          "coverage": 0,
+          "correct": 0,
+          "latency_ms": 11537.1,
+          "accuracy": 0.0
         }
       },
       "recommended_method": "A3_api",
@@ -163,8 +224,9 @@
     }
   },
   "notes": [
-    "A1/A2 latency is CPU-only (cached HTML); A3_browser is wall-clock render; A3_api is network call.",
+    "A1/A2 latency is CPU-only (cached HTML); A3_browser is wall-clock render; A3_api is network call; A4/A5 is LLM round-trip.",
     "Accuracy = exact integer match vs gold set.",
-    "sonepar A3_api = authenticated guest API (products/client/details)."
+    "sonepar A3_api = authenticated guest API (products/client/details).",
+    "A4_llm = Gemini flash-lite; A5_verifier = second LLM call to verify/correct A4."
   ]
 }

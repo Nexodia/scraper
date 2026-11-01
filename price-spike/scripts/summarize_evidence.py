@@ -32,6 +32,7 @@ def main():
     p2 = load("evidence_p2.json")
     p3b = load("evidence_p3.json")
     p3a = load("evidence_p3_apis.json")
+    p4 = load("evidence_p4.json")
 
     sites = list(p2["per_site"].keys())
 
@@ -59,6 +60,16 @@ def main():
                 "correct": p3a["per_site"][sid]["correct"],
                 "latency_ms": p3a["per_site"][sid]["avg_ms"],
             },
+            "A4_llm": {
+                "coverage": p4["per_site"][sid]["A4"]["coverage"],
+                "correct": p4["per_site"][sid]["A4"]["correct"],
+                "latency_ms": p4["metrics"]["avg_ms_per_item"],
+            },
+            "A5_verifier": {
+                "coverage": p4["per_site"][sid]["A5"]["coverage"],
+                "correct": p4["per_site"][sid]["A5"]["correct"],
+                "latency_ms": p4["metrics"]["avg_ms_per_item"],
+            },
         }
         for m, v in methods.items():
             v["accuracy"] = round(v["correct"] / n, 4) if n else 0
@@ -74,13 +85,14 @@ def main():
 
     summary = {
         "spike": "SP1",
-        "phases": ["P2", "P3"],
+        "phases": ["P2", "P3", "P4"],
         "generated_for": "P5 MCDA",
         "matrix": matrix,
         "notes": [
-            "A1/A2 latency is CPU-only (cached HTML); A3_browser is wall-clock render; A3_api is network call.",
+            "A1/A2 latency is CPU-only (cached HTML); A3_browser is wall-clock render; A3_api is network call; A4/A5 is LLM round-trip.",
             "Accuracy = exact integer match vs gold set.",
             "sonepar A3_api = authenticated guest API (products/client/details).",
+            "A4_llm = Gemini flash-lite; A5_verifier = second LLM call to verify/correct A4.",
         ],
     }
     OUT.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
