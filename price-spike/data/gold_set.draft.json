@@ -1,0 +1,705 @@
+{
+  "built_at": "2026-10-31T22:20:56.550713+00:00",
+  "items": [
+    {
+      "site": "dartel",
+      "index": 1,
+      "url": "https://www.dartel.cl/curva-tubo-libre-de-halogenos-20mm-libre-de-halogenos-ip40---gewiss-40120103-gewiss/p",
+      "html_file": "data\\raw\\dartel\\01_p.html",
+      "meta_file": "data\\raw\\dartel\\01_p.meta.json",
+      "candidates": {
+        "jsonld_offers": [
+          {
+            "name": "CURVA TUBO LIBRE DE HALOGENOS 20mm LIBRE DE HALOGENOS IP40 - Gewiss 40120103 Gewiss",
+            "price": 366,
+            "currency": "CLP",
+            "availability": "http://schema.org/InStock"
+          }
+        ],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "120.000",
+          "120.000"
+        ]
+      },
+      "ground_truth": 366,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "jsonld",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "dartel",
+      "index": 2,
+      "url": "https://www.dartel.cl/piloto-led-plast-22mm-ro-24vac-dc--b-torn-2452661-siemens/p",
+      "html_file": "data\\raw\\dartel\\02_p.html",
+      "meta_file": "data\\raw\\dartel\\02_p.meta.json",
+      "candidates": {
+        "jsonld_offers": [
+          {
+            "name": "PILOTO LED PLAST 22MM RO 24VAC/DC  B/TORN 2452661 Siemens",
+            "price": 31966,
+            "currency": "CLP",
+            "availability": "http://schema.org/InStock"
+          }
+        ],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "120.000",
+          "120.000"
+        ]
+      },
+      "ground_truth": 31966,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "jsonld",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "dartel",
+      "index": 3,
+      "url": "https://www.dartel.cl/fusible-10x38-25a-gg-fx-2520-2502034-fnx/p",
+      "html_file": "data\\raw\\dartel\\03_p.html",
+      "meta_file": "data\\raw\\dartel\\03_p.meta.json",
+      "candidates": {
+        "jsonld_offers": [
+          {
+            "name": "FUSIBLE 10x38 25A Gg FX-2520 2502034 FNX",
+            "price": 278,
+            "currency": "CLP",
+            "availability": "http://schema.org/InStock"
+          }
+        ],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "120.000",
+          "120.000"
+        ]
+      },
+      "ground_truth": 278,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "jsonld",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "dartel",
+      "index": 4,
+      "url": "https://www.dartel.cl/rollo-cable-2-5mm-100mts-azul-libre-de-halogenos-35200271-nexans---cocesa/p",
+      "html_file": "data\\raw\\dartel\\04_p.html",
+      "meta_file": "data\\raw\\dartel\\04_p.meta.json",
+      "candidates": {
+        "jsonld_offers": [
+          {
+            "name": "ROLLO CABLE 2.5MM 100MTS AZUL LIBRE DE HALOGENOS 35200271 Nexans - Cocesa",
+            "price": 44266,
+            "currency": "CLP",
+            "availability": "http://schema.org/InStock"
+          }
+        ],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "120.000",
+          "120.000"
+        ]
+      },
+      "ground_truth": 44266,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "jsonld",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "dartel",
+      "index": 5,
+      "url": "https://www.dartel.cl/caja-moldeada-sin-regulacion-drx-250n---25ka-415v-250a-2711704-legrand/p",
+      "html_file": "data\\raw\\dartel\\05_p.html",
+      "meta_file": "data\\raw\\dartel\\05_p.meta.json",
+      "candidates": {
+        "jsonld_offers": [
+          {
+            "name": "CAJA MOLDEADA SIN REGULACION DRX 250N - 25KA 415V 250A 2711704 Legrand",
+            "price": 413824,
+            "currency": "CLP",
+            "availability": "http://schema.org/InStock"
+          }
+        ],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "120.000",
+          "120.000"
+        ]
+      },
+      "ground_truth": 413824,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "jsonld",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "vitelenergia",
+      "index": 1,
+      "url": "https://vitelenergia.com/es/cable-eco-revi-l-h-1-5mm-h07z1-k-lineal-2.html",
+      "html_file": "data\\raw\\vitelenergia\\01_cable-eco-revi-l-h-1-5mm-h07z1-k-lineal-2-html.html",
+      "meta_file": "data\\raw\\vitelenergia\\01_cable-eco-revi-l-h-1-5mm-h07z1-k-lineal-2-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "291"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "1",
+          "39.990",
+          "291",
+          "324",
+          "3.755",
+          "3.995",
+          "3.203",
+          "4.215"
+        ]
+      },
+      "ground_truth": 291.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "vitelenergia",
+      "index": 2,
+      "url": "https://vitelenergia.com/es/cable-eco-revi-l-h-2-5mm-h07z1-k-lineal-2.html",
+      "html_file": "data\\raw\\vitelenergia\\02_cable-eco-revi-l-h-2-5mm-h07z1-k-lineal-2-html.html",
+      "meta_file": "data\\raw\\vitelenergia\\02_cable-eco-revi-l-h-2-5mm-h07z1-k-lineal-2-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "478"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "1",
+          "39.990",
+          "478",
+          "508",
+          "2.090",
+          "2.322",
+          "210",
+          "233"
+        ]
+      },
+      "ground_truth": 478.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "vitelenergia",
+      "index": 3,
+      "url": "https://vitelenergia.com/es/cable-eva-1-5mm2-libre-de-halogeno-h07z1-k-x-metros.html",
+      "html_file": "data\\raw\\vitelenergia\\03_cable-eva-1-5mm2-libre-de-halogeno-h07z1-k-x-metros-html.html",
+      "meta_file": "data\\raw\\vitelenergia\\03_cable-eva-1-5mm2-libre-de-halogeno-h07z1-k-x-metros-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "299"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "1",
+          "39.990",
+          "299",
+          "332",
+          "18.000",
+          "299",
+          "332",
+          "1.707"
+        ]
+      },
+      "ground_truth": 299.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "vitelenergia",
+      "index": 4,
+      "url": "https://vitelenergia.com/es/cable-libre-de-halogeno-1-5mm-h07z1-k-x-rollo-100-mts-2.html",
+      "html_file": "data\\raw\\vitelenergia\\04_cable-libre-de-halogeno-1-5mm-h07z1-k-x-rollo-100-mts-2-html.html",
+      "meta_file": "data\\raw\\vitelenergia\\04_cable-libre-de-halogeno-1-5mm-h07z1-k-x-rollo-100-mts-2-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "27937"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "1",
+          "39.990",
+          "27.937",
+          "31.041",
+          "3.755",
+          "3.995",
+          "3.203",
+          "4.215"
+        ]
+      },
+      "ground_truth": 29179,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "human_review",
+      "ground_truth_note": "Reviewed: multi-variant product (5 alternatives); default price 29179 CLP",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "vitelenergia",
+      "index": 5,
+      "url": "https://vitelenergia.com/es/cable-libre-de-halogeno-2-5mm2-h07z1-k-x-rollo-10-mts.html",
+      "html_file": "data\\raw\\vitelenergia\\05_cable-libre-de-halogeno-2-5mm2-h07z1-k-x-rollo-10-mts-html.html",
+      "meta_file": "data\\raw\\vitelenergia\\05_cable-libre-de-halogeno-2-5mm2-h07z1-k-x-rollo-10-mts-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "6167"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "1",
+          "39.990",
+          "6.167",
+          "6.560",
+          "18.000",
+          "6.167",
+          "6.560",
+          "1.707"
+        ]
+      },
+      "ground_truth": 6167.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "tecnored",
+      "index": 1,
+      "url": "https://www.tiendatecnored.cl/bandeja-canaleta-pvc-100x50mm-2-metros-con-varillas-blanco.html",
+      "html_file": "data\\raw\\tecnored\\01_bandeja-canaleta-pvc-100x50mm-2-metros-con-varillas-blanco-html.html",
+      "meta_file": "data\\raw\\tecnored\\01_bandeja-canaleta-pvc-100x50mm-2-metros-con-varillas-blanco-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "10826"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "0",
+          "10.826",
+          "4.415",
+          "641",
+          "538",
+          "7.455",
+          "6.430",
+          "3.303"
+        ]
+      },
+      "ground_truth": 10826.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "tecnored",
+      "index": 2,
+      "url": "https://www.tiendatecnored.cl/cable-preensamblado-1x16-1x16mm2-neutro-desnudo-elexor.html",
+      "html_file": "data\\raw\\tecnored\\02_cable-preensamblado-1x16-1x16mm2-neutro-desnudo-elexor-html.html",
+      "meta_file": "data\\raw\\tecnored\\02_cable-preensamblado-1x16-1x16mm2-neutro-desnudo-elexor-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "672"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "0",
+          "803",
+          "672",
+          "1.251",
+          "995",
+          "5.104",
+          "4.589",
+          "8.751"
+        ]
+      },
+      "ground_truth": 672.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "tecnored",
+      "index": 3,
+      "url": "https://www.tiendatecnored.cl/cable-solar-10mm2-negro-elexor.html",
+      "html_file": "data\\raw\\tecnored\\03_cable-solar-10mm2-negro-elexor-html.html",
+      "meta_file": "data\\raw\\tecnored\\03_cable-solar-10mm2-negro-elexor-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "2128"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "0",
+          "2.359",
+          "2.128",
+          "155.080",
+          "141.203",
+          "736.184",
+          "535.500",
+          "1.831"
+        ]
+      },
+      "ground_truth": 2128.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "tecnored",
+      "index": 4,
+      "url": "https://www.tiendatecnored.cl/canaleta-pvc-14x7mm-x-2-metros-blanco-con-adhesivo-economico.html",
+      "html_file": "data\\raw\\tecnored\\04_canaleta-pvc-14x7mm-x-2-metros-blanco-con-adhesivo-economico-html.html",
+      "meta_file": "data\\raw\\tecnored\\04_canaleta-pvc-14x7mm-x-2-metros-blanco-con-adhesivo-economico-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "2101"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "0",
+          "2.101",
+          "641",
+          "538",
+          "7.455",
+          "645",
+          "541",
+          "3.303"
+        ]
+      },
+      "ground_truth": 2101.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "tecnored",
+      "index": 5,
+      "url": "https://www.tiendatecnored.cl/cond-fotovol-h1z2z2-k-4mm2-rojo-elexor.html",
+      "html_file": "data\\raw\\tecnored\\05_cond-fotovol-h1z2z2-k-4mm2-rojo-elexor-html.html",
+      "meta_file": "data\\raw\\tecnored\\05_cond-fotovol-h1z2z2-k-4mm2-rojo-elexor-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [
+          "763"
+        ],
+        "meta_price_currency": [
+          "CLP"
+        ],
+        "visible_prices": [
+          "0",
+          "793",
+          "763",
+          "903.456",
+          "813.532",
+          "772",
+          "1.225",
+          "1.153"
+        ]
+      },
+      "ground_truth": 763.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "meta",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "rhona",
+      "index": 1,
+      "url": "https://rhona.cl/producto/10332/panel-solar-monocristalino-azul.html",
+      "html_file": "data\\raw\\rhona\\01_panel-solar-monocristalino-azul-html.html",
+      "meta_file": "data\\raw\\rhona\\01_panel-solar-monocristalino-azul-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "187.124",
+          "187.124",
+          "574.736",
+          "190.590",
+          "1.541.478",
+          "1.172.864",
+          "2.042.040",
+          "2.258.600"
+        ]
+      },
+      "ground_truth": 187124.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "visible",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "rhona",
+      "index": 2,
+      "url": "https://rhona.cl/producto/10587/panel-solar-monocristalino.html",
+      "html_file": "data\\raw\\rhona\\02_panel-solar-monocristalino-html.html",
+      "meta_file": "data\\raw\\rhona\\02_panel-solar-monocristalino-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "126.875",
+          "187.124",
+          "149.749",
+          "962.619",
+          "1.172.864",
+          "368.614",
+          "27.227",
+          "449.039"
+        ]
+      },
+      "ground_truth": 126875.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "visible",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "rhona",
+      "index": 3,
+      "url": "https://rhona.cl/producto/11293/panel-solar-monocristalino.html",
+      "html_file": "data\\raw\\rhona\\03_panel-solar-monocristalino-html.html",
+      "meta_file": "data\\raw\\rhona\\03_panel-solar-monocristalino-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "108.626",
+          "108.626",
+          "574.736",
+          "190.590",
+          "1.675.520",
+          "1.558.233",
+          "2.258.600",
+          "1.625.522"
+        ]
+      },
+      "ground_truth": 108626.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "visible",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "rhona",
+      "index": 4,
+      "url": "https://rhona.cl/producto/12095/panel-solar-bifacial-620wp.html",
+      "html_file": "data\\raw\\rhona\\04_panel-solar-bifacial-620wp-html.html",
+      "meta_file": "data\\raw\\rhona\\04_panel-solar-bifacial-620wp-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "121.348",
+          "108.626",
+          "1.558.233",
+          "149.749",
+          "1.172.864",
+          "1.541.478",
+          "884.674",
+          "35.395"
+        ]
+      },
+      "ground_truth": 121348.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "visible",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "rhona",
+      "index": 5,
+      "url": "https://rhona.cl/producto/10335/inversor-monofasico.html",
+      "html_file": "data\\raw\\rhona\\05_inversor-monofasico-html.html",
+      "meta_file": "data\\raw\\rhona\\05_inversor-monofasico-html.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": [
+          "544.544",
+          "921.536",
+          "795.872",
+          "48.171",
+          "523.600",
+          "43.982",
+          "884.674",
+          "962.619"
+        ]
+      },
+      "ground_truth": 544544.0,
+      "ground_truth_currency": "CLP",
+      "ground_truth_source": "visible",
+      "ground_truth_note": "AUTO best-guess; verify by hand | human-confirmed",
+      "needs_human_review": false,
+      "reviewed": true
+    },
+    {
+      "site": "sonepar",
+      "index": 1,
+      "url": "https://shop.sonepar.cl/products/1000017/TI66942/ACCESORIO_CAJA_DISTRIBUCI%C3%93N_REDONDA_3_MOD_SENSOR_WATT_STOPPER_355",
+      "html_file": "data\\raw\\sonepar\\01_ACCESORIO_CAJA_DISTRIBUCI-C3-93N_REDONDA_3_MOD_SENSOR_WATT_STOPPER_355.html",
+      "meta_file": "data\\raw\\sonepar\\01_ACCESORIO_CAJA_DISTRIBUCI-C3-93N_REDONDA_3_MOD_SENSOR_WATT_STOPPER_355.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": []
+      },
+      "ground_truth": null,
+      "ground_truth_currency": null,
+      "ground_truth_source": null,
+      "ground_truth_note": "PENDING: needs login (P3/P4)",
+      "needs_human_review": true,
+      "reviewed": false
+    },
+    {
+      "site": "sonepar",
+      "index": 2,
+      "url": "https://shop.sonepar.cl/products/1000099/SCH10125/GUARDAMOTOR_TRIPOLAR_1%2C6-2%2C5A_100KA_EASYPACT_TVS",
+      "html_file": "data\\raw\\sonepar\\02_GUARDAMOTOR_TRIPOLAR_1-2C6-2-2C5A_100KA_EASYPACT_TVS.html",
+      "meta_file": "data\\raw\\sonepar\\02_GUARDAMOTOR_TRIPOLAR_1-2C6-2-2C5A_100KA_EASYPACT_TVS.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": []
+      },
+      "ground_truth": null,
+      "ground_truth_currency": null,
+      "ground_truth_source": null,
+      "ground_truth_note": "PENDING: needs login (P3/P4)",
+      "needs_human_review": true,
+      "reviewed": false
+    },
+    {
+      "site": "sonepar",
+      "index": 3,
+      "url": "https://shop.sonepar.cl/products/1000109/TE92580/GUARDAMOTOR_3P_24-32A_35KA_TESYS_GV2P32",
+      "html_file": "data\\raw\\sonepar\\03_GUARDAMOTOR_3P_24-32A_35KA_TESYS_GV2P32.html",
+      "meta_file": "data\\raw\\sonepar\\03_GUARDAMOTOR_3P_24-32A_35KA_TESYS_GV2P32.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": []
+      },
+      "ground_truth": null,
+      "ground_truth_currency": null,
+      "ground_truth_source": null,
+      "ground_truth_note": "PENDING: needs login (P3/P4)",
+      "needs_human_review": true,
+      "reviewed": false
+    },
+    {
+      "site": "sonepar",
+      "index": 4,
+      "url": "https://shop.sonepar.cl/products/1000113/SS66144/GUARDAMOTOR_TRIPOLAR_1%2C8-2%2C5A_100KA_S00",
+      "html_file": "data\\raw\\sonepar\\04_GUARDAMOTOR_TRIPOLAR_1-2C8-2-2C5A_100KA_S00.html",
+      "meta_file": "data\\raw\\sonepar\\04_GUARDAMOTOR_TRIPOLAR_1-2C8-2-2C5A_100KA_S00.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": []
+      },
+      "ground_truth": null,
+      "ground_truth_currency": null,
+      "ground_truth_source": null,
+      "ground_truth_note": "PENDING: needs login (P3/P4)",
+      "needs_human_review": true,
+      "reviewed": false
+    },
+    {
+      "site": "sonepar",
+      "index": 5,
+      "url": "https://shop.sonepar.cl/products/1000114/TE10008/GUARDAMOTOR_TRIPOLAR_9-13A_100KA",
+      "html_file": "data\\raw\\sonepar\\05_GUARDAMOTOR_TRIPOLAR_9-13A_100KA.html",
+      "meta_file": "data\\raw\\sonepar\\05_GUARDAMOTOR_TRIPOLAR_9-13A_100KA.meta.json",
+      "candidates": {
+        "jsonld_offers": [],
+        "meta_price_amount": [],
+        "meta_price_currency": [],
+        "visible_prices": []
+      },
+      "ground_truth": null,
+      "ground_truth_currency": null,
+      "ground_truth_source": null,
+      "ground_truth_note": "PENDING: needs login (P3/P4)",
+      "needs_human_review": true,
+      "reviewed": false
+    }
+  ]
+}

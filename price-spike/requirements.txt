@@ -1,0 +1,6 @@
+google-adk[mcp]>=2.0
+mcp>=2.2,<3
+python-dotenv
+httpx>=0.27
+selectolax>=0.3
+playwright>=1.44

@@ -1,0 +1,60 @@
+{
+  "comment": "Preliminary fingerprint from homepage HTML + robots.txt (non-invasive). Confirm per-product in P1 before using as evidence.",
+  "targets": [
+    {
+      "id": "dartel",
+      "name": "Dartel",
+      "url": "https://www.dartel.cl/",
+      "platform": "VTEX",
+      "pattern": "structured_spa",
+      "structured_data": true,
+      "robots_txt": "https://www.dartel.cl/robots.txt",
+      "strategy_hint": "jsonld + vtex catalog/search API",
+      "notes": "Headless commerce; 2.1 MB homepage; JSON-LD present; VTEX API endpoints to discover."
+    },
+    {
+      "id": "vitelenergia",
+      "name": "Vitel Energía",
+      "url": "https://vitelenergia.com/",
+      "platform": "Magento 2",
+      "pattern": "structured_server_rendered",
+      "structured_data": true,
+      "robots_txt": "https://vitelenergia.com/robots.txt",
+      "strategy_hint": "jsonld + magento rest/graphql",
+      "notes": "Magento (pub/static paths); JSON-LD present; REST/GraphQL availability to confirm."
+    },
+    {
+      "id": "rhona",
+      "name": "RHONA",
+      "url": "https://rhona.cl/",
+      "platform": "MIPLUS CMS",
+      "pattern": "legacy_html",
+      "structured_data": false,
+      "robots_txt": "https://rhona.cl/robots.txt",
+      "strategy_hint": "css selectors (classic crawler)",
+      "notes": "Legacy server-rendered CMS, jQuery, reCAPTCHA; no structured data found; hardest for generic parsers."
+    },
+    {
+      "id": "tecnored",
+      "name": "TiendaTecnoRed",
+      "url": "https://www.tiendatecnored.cl/",
+      "platform": "Magento",
+      "pattern": "server_rendered",
+      "structured_data": false,
+      "robots_txt": "https://www.tiendatecnored.cl/robots.txt",
+      "strategy_hint": "css selectors + magento api (version TBD)",
+      "notes": "103 Magento markers; M1-style robots paths (/lib/, /pkginfo/, /var/); version to confirm."
+    },
+    {
+      "id": "sonepar",
+      "name": "Sonepar Chile",
+      "url": "https://shop.sonepar.cl/",
+      "platform": "Custom SPA (Checkbuy)",
+      "pattern": "spa_api",
+      "structured_data": true,
+      "robots_txt": "https://shop.sonepar.cl/robots.txt",
+      "strategy_hint": "internal JSON API + headless browser",
+      "notes": "~9 KB shell served by nginx for all SPA routes; internal API; likely needs session/auth for prices; review ToS before API use."
+    }
+  ]
+}

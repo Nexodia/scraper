@@ -1,0 +1,19 @@
+# Root-level ignore (belt and suspenders; price-spike/.gitignore also applies).
+
+# Secrets & local state — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Sonepar login session (contains tokens)
+data/sonepar_session.json
+data/raw/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log

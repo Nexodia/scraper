@@ -1,0 +1,9 @@
+# Secrets and local session state — never commit
+.env
+data/sonepar_session.json
+data/raw/
+logs/
+.venv/
+__pycache__/
+*.pyc
+_sonepar_bundle.js
